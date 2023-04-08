@@ -20,7 +20,7 @@
         <option value="F">F</option>
       </select>
       <label class="form-check-label my-2" for="cours">Cours :</label>
-      <select class="form-select form-select-lg" name="cours" id="cours" multiple>
+      <select class="form-select form-select-lg" name="cours[]" id="cours" multiple>
         <option value="simple">simple</option>
         <option value="moyen">moyen</option>
         <option value="difficile" >difficile</option>
@@ -38,7 +38,3 @@
   </script>
 </body> 
 </html>
-
-<?php
-  // for ($i=0; $i < 10; $i++) { echo 'hi'; }
-?>
